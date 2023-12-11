@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="HT-Step: Aligning Instructional Articles with How-To Videos.">
+  <meta name="keywords" content="HT-Step,dataset,article grounding,instructional video,how-to">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HT-Step: Aligning Instructional Articles with How-To Videos</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">HT-Step: Aligning Instructional Articles with How-To Videos.</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://www.robots.ox.ac.uk/~afourast/">Triantafyllos Afouras</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://emavroudi.github.io/">Effrosyni Mavroudi</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://tushar-n.github.io/">Tushar Nagarajan</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://csrhddlam.github.io/">Huiyu Want</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://ltorresa.github.io/home.html">Lorenzo Torresani</a><sup>1</sup>,
+            </span>
+
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Fundamental AI Research (FAIR), Meta</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://openreview.net/pdf?id=vv3cocNsEK"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Test Server Link. -->
+              <span class="link-block">
+                <a href="https://eval.ai/web/challenges/challenge-page/2205/overview"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Evaluation Server (coming soon)</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://github.com/facebookresearch/htstep"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Dataset</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img 
+         src="./static/images/neurips23_htstep_overview.jpg"
+         class="overview-figure"
+         alt="HT-Step overview"
+      />
+      <!--<h2 class="subtitle has-text-centered">-->
+        <!--<span class="dnerfies">teaser</span> figure caption-->
+      <!--</h2>-->
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+          We introduce HT-Step, a large-scale dataset containing temporal annotations of
+          instructional article steps in cooking videos. It includes 116k segment-level annotations
+          over 20k narrated videos (approximately 2.1k hours) of the HowTo100M
+          dataset. Each annotation provides a temporal interval, and a categorical step label
+          from a taxonomy of 4, 958 unique steps automatically mined from wikiHow
+          articles which include rich descriptions of each step. Our dataset significantly
+          surpasses existing labeled step datasets in terms of scale, number of tasks, and
+          richness of natural language step descriptions. Based on these annotations, we
+          introduce a strongly supervised benchmark for aligning instructional articles with
+          how-to videos and present a comprehensive evaluation of baseline methods for
+          this task. By publicly releasing these annotations and defining rigorous evaluation
+          protocols and metrics, we hope to significantly accelerate research in the field of
+          procedural activity understanding.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+
+<!--<section class="section">-->
+    <!--<div class="columns is-centered has-text-centered">-->
+      <!--<div class="column is-four-fifths">-->
+        <!--<h2 class="title is-3">Video</h2>-->
+        <!--<div class="publication-video">-->
+          <!--<video id="vina_5min" autoplay controls muted loop playsinline height="100%">-->
+            <!--<source src="./static/videos/5min-video.mp4"-->
+                    <!--type="video/mp4">-->
+          <!--</video>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+    <!--[>/ Paper video. <]-->
+  <!--</div>-->
+<!--</section>-->
+
+
+<!-- Quantitative results -->
+<section class="section">
+
+  <div class="container is-max-desktop">
+      <h2 class="title is-3">Annotation examples</h2>
+  </div>
+
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+
+
+      <div class="column">
+        <div class="content">
+          <!--<p>-->
+          <!--text 1-->
+          <!--</p>-->
+            <video id="chicken_piccata" autoplay controls muted loop playsinline height="50%">
+              <source src="./static/videos/make_chicken_piccata.mp4"
+                      type="video/mp4">
+            </video>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="content">
+          <!--<p>-->
+          <!--text 1-->
+          <!--</p>-->
+            <video id="yorkshire_pudding" autoplay controls muted loop playsinline height="50%">
+              <source src="./static/videos/make_yorkshire_pudding.mp4"
+                      type="video/mp4">
+            </video>
+        </div>
+      </div>
+
+
+      <div class="column">
+        <div class="content">
+          <!--<p>-->
+          <!--text 1-->
+          <!--</p>-->
+            <video id="natillas" autoplay controls muted loop playsinline height="50%">
+              <source src="./static/videos/make_natillas.mp4"
+                      type="video/mp4">
+            </video>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+ <!-- Quantitative results -->
+
+
+
+
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @inproceedings{afouras2023htstep,
+          author    = {Afouras, Triantafyllos and Mavroudi, Effrosyni and Nagarajan, Tushar Wang Huiyu and Torresani, Lorenzo},
+          title     = {HT-Step: Aligning Instructional Articles with How-To Videos.},
+          booktitle = {Neural Information Processing Systems},
+          month     = {December},
+          year      = {2023},
+      }</code></pre>
+  </div>
+</section>
+
+
+
+
+
+
+
+<footer class="footer">
+  <div class="container">
+
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            We thank Mandy Toh, Yale Song, Gene Byrne, Fu-Jen Chu, Austin Miller,
+            and Jiabo Hu for helpful discussions and invaluable engineering support.
+            The website template is borrowed from <a href="https://nerfies.github.io/">Nerfies</a>.
+            The instructional videos are from the <a href="https://www.di.ens.fr/willow/research/howto100m/"> HowTo100M dataset</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
