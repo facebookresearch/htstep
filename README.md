@@ -7,8 +7,11 @@ Triantafyllos Afouras, Effrosyni Mavroudi, Tushar Nagarajan, Huiyu Wang, Lorenzo
 
    **HT-Step is a large-scale dataset containing temporal annotations of instructional article steps in cooking videos..**  
 
+## Annotations 
+We provide the dataset  annotations in the following files.
+
 ## Testing
-The evaluation server is available on [[Codalab]](https://eval.ai/web/challenges/challenge-page/2082/overview)!
+The evaluation server is available on [[Eval AI]](https://eval.ai/web/challenges/challenge-page/2082/overview)!
 
 ## License
 HT-Step is released under the CC-BY-NC 4.0 license. See [[LICENSE]](LICENSE) for additional details.
